@@ -1,0 +1,19 @@
+create table sample1(id int,text varchar(20));
+insert into sample1(id,text)values('1','math');
+insert into sample1(id,text)values('2','math');
+insert into sample1(id,text)values('2','physics');
+insert into sample1(id,text)values('3','telugu');
+insert into sample1(id,text)values('4','hindi');
+insert into sample1(id,text)values('5','social');
+insert into sample1(id,text)values('6','bialogy');
+select * from sample1;
+select text from sample1 where id=2;
+select text as name from sample1 where text='math';
+select text from sample1 where id=6;
+
+create table Employeesalary(id int,text varchar(200),Empsalary int);
+insert into Employeesalary(id,text,Empsalary)values('1','vikram','12000');
+insert into Employeesalary(id,text,Empsalary)values('2','john','22000');
+insert into Employeesalary(id,text,Empsalary)values('3','raju','32000');
+insert into (id,text,Empsalary)values('4','rohit','45000');
+select * from Employeesalary;
