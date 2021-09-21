@@ -1,0 +1,13 @@
+create table studentmaster(studentcode int,studentname varchar(200));
+insert into studentmaster(studentcode,studentname)values('1','john');
+insert into studentmaster(studentcode,studentname)values('2','vikram');
+insert into studentmaster(studentcode,studentname)values('3','gopi');
+
+create table departmentmaster(departmentcode int,departmentname varchar(200));
+insert into departmentmaster(departmentcode,departmentname)values('1','IT');
+insert into departmentmaster(departmentcode,departmentname)values('2','HR');
+insert into departmentmaster(departmentcode,departmentname)values('3','Manager');
+select * from departmentmaster
+
+create table maps(Id int,studentcode int,departmentcode int);
+insert into maps(Id,studentcode,departmentcode);
